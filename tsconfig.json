@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "commonjs",
+    "lib": ["ES2022"],
+    "types": ["node"],
+    "strict": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "allowJs": true,
+    "noEmit": true
+  },
+  "include": ["Typescript/**/*.ts"],
+  "exclude": [
+    "node_modules",
+    "tests",
+    "PageObjects",
+    "Utils",
+    "playwright-report",
+    "allure-results",
+    "test-results"
+  ]
+}

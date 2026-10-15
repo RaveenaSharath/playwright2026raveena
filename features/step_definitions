@@ -1,0 +1,27 @@
+const {when, Then, Given } = require ("@cucumber/cucumber");
+const {POManager} = require ("../pageobjects/POManager");
+
+Given('I have and {username} and {password}', function (username, password) {
+  // Write code here that turns the phrase above into concrete actions
+  return 'pending';
+});
+
+When('Add {zara code 3} to a cart', function (string) {
+  // Write code here that turns the phrase above into concrete actions
+  return 'pending';
+});
+
+Then('verify {zara code 3} is in the cart', function (string) {
+  // Write code here that turns the phrase above into concrete actions
+  return 'pending';
+});
+
+When('Enter valid details and place the Order', function () {
+  // Write code here that turns the phrase above into concrete actions
+  return 'pending';
+});
+
+Then('I should have heard {string}', function (string) {
+  // Write code here that turns the phrase above into concrete actions
+  return 'pending';
+});
